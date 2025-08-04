@@ -1,0 +1,35 @@
+Package: aiscv
+Title: Auxiliary Information Synthesis via Control Variates
+Version: 0.0.1
+Authors@R: 
+  c(
+  person(given = "Jie",
+         family = "Ding",
+         role = c("aut", "cre"),
+         email = "biostat_jieding@outlook.com",
+         comment = c(ORCID = "0000-0002-6083-7529")),
+  person(given = "Jialiang", 
+         family = "Li", 
+         role = c("aut"),  
+         email = "jialiang@nus.edu.sg",
+         comment = c(ORCID = "0000-0002-9704-4135")),
+  person(given = "Xiaoguang",
+         family = "Wang",
+         role = c("aut"),
+         email = "wangxg@mail.dlut.edu.cn",
+         comment = c(ORCID = "0000-0002-5598-062X"))
+  )
+Author: Jie Ding [aut, cre] (<https://orcid.org/0000-0002-6083-7529>), Jialiang Li [aut] (<https://orcid.org/0000-0002-9704-4135>), Xiaoguang Wang [aut] (<https://orcid.org/0000-0002-5598-062X>)
+Maintainer: Jie Ding <biostat_jieding@outlook.com>
+Description: Auxiliary information synthesis via control variates.
+License: GPL (>= 2)
+Encoding: UTF-8
+Depends: R (>= 3.5.0)
+Imports: Matrix, glmnet, MASS, lars, survival
+importFrom: stats coef
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+URL: <https://github.com/biostat-jieding/aiscv>
+Config/testthat/edition: 3
+NeedsCompilation: no
+Packaged: 2025-08-04 01:44:03 UTC; biost
